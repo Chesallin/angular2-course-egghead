@@ -4,9 +4,9 @@ import { Injectable } from '@angular/core';
 export class MailService {
 
   messages = [
-    "Message 1 (message one)",
-    "Message 2 (message two)",
-    "Message 3 (message three)"
+    "You're now friends with John",
+    "John liked your tweet",
+    "You'll never believe what John said"
   ];
 
 
