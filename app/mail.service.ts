@@ -3,8 +3,11 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class MailService {
 
-  message = "You have got mail!";
-  message2 = "Hi, my name is";
+  messages = [
+    "Message 1 (message one)",
+    "Message 2 (message two)",
+    "Message 3 (message three)"
+  ];
 
 
   constructor() { }

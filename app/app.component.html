@@ -1,14 +1,5 @@
-<!--
-<h1>
-  {{title}}
-</h1>
--->
-
 <div>
-  <app-simple-form>
-  </app-simple-form>
-  <p>{{mail.message}}</p>
-  <p>{{mail.message2}}</p>
-  <br>
-  <p>{{api}}</p>  
+  <ul>
+    <li *ngFor="let message of mail.messages">{{message}}</li>
+  </ul>
 </div>

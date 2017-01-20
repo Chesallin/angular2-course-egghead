@@ -18,6 +18,7 @@ import { MailService } from './mail.service';
     FormsModule,
     HttpModule
   ],
+  
   providers: [
     {provide:'mail', useClass:MailService},
     {provide: 'api', useValue: "http://localhost:3000"}
